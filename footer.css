@@ -1,0 +1,107 @@
+#contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 25px 50px;
+  height: 400px;
+  background: var(--background);
+}
+
+a{
+  transition: 0.3s;
+}
+
+
+
+#contact div {
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: top;
+}
+.logo img {
+  width: 200px;
+  height: 130px;
+  margin-bottom: 80px;
+}
+.empresa-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.empresa-footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 2;
+}
+
+.empresa-footer a:hover{
+  color: #cecece;
+}
+
+.empresa-footer .empresa {
+  font-size: 30px;
+  color: var(--text);
+  font-family: "Poppins";
+}
+.empresa-footer .empresa:hover{
+  color:#6580b4 ;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+}
+
+.produtos a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 2;
+  text-align: left;
+}
+
+.produtos a:hover{
+  color: #cecece;
+}
+
+.produtos .produtos-title {
+  font-size: 30px;
+  color: var(--text);
+  font-family: "Poppins";
+}
+
+.produtos .produtos-title:hover{
+  color:#6580b4 ;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes-sociais button{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  background: var(--formas);
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+}
+
+.redes-sociais button img{
+  width: 20px;
+}

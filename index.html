@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="button.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Unicorn Scotlands</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="./assets/logo.png" alt="Unicorn Scotlands" />
+        <ul>
+          <a href="#section2"><li>Portfólio</li></a>
+          <a href="#section3"><li>Orçamento</li></a>
+          <a href="#section3"><li class="limit">Clientes</li></a>
+          <a href="#section4"><li>Quem Somos</li></a>
+          <a href="#contact"><li>Contato</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="slogan">
+          <h1>Nós transformamos as suas ideias em arte.</h1>
+          <button>Eu quero</button>
+        </div>
+        <div class="image-box">
+          <img src="./assets/castelo-png_1.svg" alt="escócia" />
+        </div>
+      </section>
+
+      <section id="section2">
+        <div class="triangle"></div>
+        <div class="content">
+          <div class="first_paragraph">
+            <p>
+              A Unicorn Scotland imprime uma variedade de produtos gráficos que
+              vão desde um panfleto até um banner.
+            </p>
+          </div>
+          <div class="second_paragraph">
+            <p>
+              O portfólio inclui: Adesivos, Banner, Brindes, Convites,
+              Embalagens, Envelopes, Folders e Panfletos.
+            </p>
+          </div>
+          <div class="third_paragraph">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="image-box2">
+          <img
+            src="./assets/parte-de-baixo-castle_1.svg"
+            alt="Unicorn Scotlands"
+          />
+        </div>
+      </section>
+
+      <section id="section3">
+        <div class="triangle"></div>
+        <div class="content">
+          <form action="" onclick="onSubmit(event)">
+            <h1>Orçamento</h1>
+            <div class="main-informations">
+              <input type="text" id="name" placeholder="Nome Completo" />
+              <input type="text" name="email" id="email" placeholder="E-mail" />
+            </div>
+            <div class="other-informations">
+              <div>
+                <input
+                  type="text"
+                  name="telefone"
+                  id="telefone"
+                  placeholder="Telefone"
+                />
+                <input type="text" name="cep" id="cep" placeholder="CEP" />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="quantidade"
+                  id="quantidade"
+                  placeholder="Quantidade"
+                />
+                <input
+                  type="text"
+                  name="tamanho"
+                  id="tamanho"
+                  placeholder="Tamanho"
+                />
+              </div>
+            </div>
+            <input
+              type="text"
+              name="material"
+              id="material"
+              placeholder="Tipo de Material"
+            />
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="section4">
+        <div class="about">
+          <span>Quem somos nós?</span>
+          <p>
+            A Unicorn Scotland surgiu em meados de 2008 lá me Edimburgo na
+            Escócia como uma gráfica de bairro, desde então viemos abrindo
+            outras filiais dentro e fora da Escócia como no caso do Brasil.
+          </p>
+        </div>
+        <div class="skills">
+          <span>Especialidade</span>
+          <p>
+            Nós somos especialistas em impressão de diversos produtos gráficos e
+            também contribuímos ao combate do aquecimento global, fazendo uso de
+            produtos ecológicos e de origem legal.
+          </p>
+        </div>
+      </section>
+
+      <section id="section5">
+        <h1>Conheça um pouco mais</h1>
+
+        <div id="slider">
+          <div class="slider-div">
+            <img
+              class="selected"
+              src="./assets/grafica-escocia.png"
+              alt="Unicorn Scotland Escocia"
+            />
+            <p class="selected">
+              Primeira loja da Unicorn Scotland em Emdiburgo na Escócia
+            </p>
+          </div>
+          <div class="slider-div">
+            <img
+              src="./assets/grafica-brasil.png"
+              alt="Unicorn Scotland Brasil"
+            />
+            <p>Primeira filial no Brasil em Botucatu.</p>
+          </div>
+          <div class="slider-div">
+            <img
+              src="./assets/grafica-japan.PNG"
+              alt="Unicorn Scotland Japão"
+            />
+            <p>Primeira filial no Japão da Unicorn Scotland.</p>
+          </div>
+          <div class="slider-div">
+            <img
+              src="../assets/grafica-suica.PNG"
+              alt="Unicorn Scotland Suiça"
+            />
+            <p>Segunda filial da Unicorn Scotland na Suíça em Zurique.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Unicord Scotland" />
+      </div>
+
+      <div class="empresa-footer">
+        <a href="#" class="empresa">Empresa</a>
+        <a href="#section4">Quem somos nós?</a>
+        <a href="#section5">Conheça um pouco mais</a>
+      </div>
+
+      <div class="produtos">
+        <a href="#" class="produtos-title">Produtos</a>
+        <a href="#section2">Portfólio</a>
+        <a href="#section3">Orçamento</a>
+        <a href="#section3">Clientes</a>
+      </div>
+
+      <div class="redes-sociais">
+        <button>
+          <img src="./assets/facebook.png" alt="Unicorn Scotland Facebook" />
+        </button>
+        <button>
+          <img src="./assets/instagram.png" alt="Unicorn Scotland Instagram" />
+        </button>
+        <button>
+          <img src="./assets/twitter.png" alt="Unicorn Scotland Twitter" />
+        </button>
+      </div>
+    </footer>
+  </body>
+  <script src="carrosel.js"></script>
+</html>
